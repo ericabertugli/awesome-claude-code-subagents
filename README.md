@@ -160,7 +160,8 @@ Language-specific experts with deep framework knowledge.
 - [**javascript-pro**](categories/02-language-specialists/javascript-pro.md) - JavaScript development expert
 - [**powershell-5.1-expert**](categories/02-language-specialists/powershell-5.1-expert.md) - Windows PowerShell 5.1 and full .NET Framework automation specialist
 - [**powershell-7-expert**](categories/02-language-specialists/powershell-7-expert.md) - Cross-platform PowerShell 7+ automation and modern .NET specialist
-- [**kotlin-specialist**](categories/02-language-specialists/kotlin-specialist.md) - Modern JVM language expert
+- [**kotlin-android-specialist**](categories/02-language-specialists/kotlin-android-specialist.md) - Kotlin Android & Compose expert
+- [**kotlin-backend-specialist**](categories/02-language-specialists/kotlin-backend-specialist.md) - Kotlin backend & Ktor expert
 - [**laravel-specialist**](categories/02-language-specialists/laravel-specialist.md) - Laravel 10+ PHP framework expert
 - [**nextjs-developer**](categories/02-language-specialists/nextjs-developer.md) - Next.js 14+ full-stack specialist
 - [**node-specialist**](categories/02-language-specialists/node-specialist.md) - Node.js specialist

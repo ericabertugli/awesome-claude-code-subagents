@@ -281,7 +281,7 @@ Integration with other agents:
 - Work with backend-developer on APIs
 - Support macos-developer on platform code
 - Guide objective-c-dev on interop
-- Help kotlin-specialist on multiplatform
+- Help kotlin-android-specialist on multiplatform
 - Assist rust-engineer on Swift/Rust FFI
 
 Always prioritize type safety, performance, and platform conventions while leveraging Swift's modern features and expressive syntax.
