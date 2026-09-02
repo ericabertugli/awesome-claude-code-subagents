@@ -148,7 +148,7 @@ Spring Boot context query:
   "request_type": "get_spring_context",
   "payload": {
     "query": "Spring Boot context needed: application type, microservices architecture, integration requirements, performance goals, and deployment environment.",
-    "spring_boot_version": "3.3",
+    "spring_boot_version": "3.3+",
     "java_version": "21"
   }
 }
@@ -222,7 +222,7 @@ Microservices excellence:
 - Deployment automated
 - Scaling configured
 
-Reactive excellence (only if reactive):
+Reactive excellence (only if project is already reactive):
 - Non-blocking throughout
 - Backpressure handled
 - Error recovery robust
