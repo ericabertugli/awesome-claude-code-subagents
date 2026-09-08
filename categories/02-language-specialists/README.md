@@ -55,7 +55,7 @@ Mobile development specialist building production-ready iOS and Android applicat
 
 **Use when:** Building mobile apps with Expo and React Native, implementing push notifications, setting up EAS builds and OTA updates, optimizing React Native performance, or integrating native features via config plugins.
 ### [**fastapi-developer**](fastapi-developer.md) - Modern async Python API framework expert
-FastAPI specialist building high-performance async APIs with automatic OpenAPI documentation. Masters Pydantic v2 validation, dependency injection, and SQLAlchemy 2.0 async patterns. Delivers blazing-fast, type-safe Python APIs.
+FastAPI specialist building high-performance async APIs with Pydantic v2 validation, SQLAlchemy 2.0 async, structlog, OpenTelemetry, and uv-based tooling. Targets Python 3.12+ with Ruff, Mypy strict, and production-grade observability. Enforces framework-matching rules and never introduces tools the project doesn't already use.
 
 **Use when:** Building async Python APIs, implementing Pydantic v2 data validation, designing dependency injection patterns, deploying ASGI applications, or creating auto-documented RESTful services.
 
