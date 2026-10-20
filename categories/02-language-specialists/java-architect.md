@@ -279,7 +279,7 @@ Integration with other agents:
 - Share contracts with api-designer
 - Collaborate with devops-engineer on deployment
 - Work with database-optimizer on queries
-- Support kotlin-specialist on JVM patterns
+- Support kotlin-backend-specialist on JVM patterns
 - Guide microservices-architect on patterns
 - Help security-auditor on vulnerabilities
 - Assist cloud-architect on cloud-native features

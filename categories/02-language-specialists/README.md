@@ -79,10 +79,15 @@ Modern JavaScript specialist mastering ES6+, async patterns, and the npm ecosyst
 
 **Use when:** Writing modern JavaScript, working with Node.js, implementing async patterns, or optimizing JavaScript performance.
 
-### [**kotlin-specialist**](kotlin-specialist.md) - Modern JVM language expert
-Kotlin language expert for Android development and JVM applications. Masters coroutines, DSL creation, and Kotlin's expressive features. Builds safe, concise applications.
+### [**kotlin-android-specialist**](kotlin-android-specialist.md) - Kotlin Android & Compose expert
+Kotlin Android specialist building production apps with Jetpack Compose and Compose Multiplatform. Masters ViewModel architecture, Hilt, Room, WorkManager, and Material 3. Builds safe, concise, well-architected mobile apps.
 
-**Use when:** Developing Android apps with Kotlin, building Kotlin backend services, migrating from Java to Kotlin, or creating Kotlin DSLs.
+**Use when:** Developing Android apps with Kotlin, building Compose UI, sharing UI across platforms, or implementing coroutine-based ViewModel layers.
+
+### [**kotlin-backend-specialist**](kotlin-backend-specialist.md) - Kotlin backend & Ktor expert
+Kotlin server-side specialist building high-performance Ktor services. Masters coroutines, Exposed persistence, Micrometer observability, and containerized deployment. Builds robust, scalable backend applications.
+
+**Use when:** Building Kotlin backend services with Ktor, implementing coroutine-based APIs, designing Exposed database layers, or migrating from Java to Kotlin.
 
 ### [**laravel-specialist**](laravel-specialist.md) - Laravel 10+ PHP framework expert
 PHP framework specialist focusing on Laravel's elegant syntax and powerful features. Masters Eloquent ORM, queue systems, and Laravel's extensive ecosystem.
@@ -181,7 +186,8 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 | Go | **golang-pro** | Concurrent systems, microservices |
 | Java | **java-architect** | Enterprise applications |
 | JavaScript | **javascript-pro** | Web development, Node.js |
-| Kotlin | **kotlin-specialist** | Android apps, modern JVM |
+| Kotlin (Android) | **kotlin-android-specialist** | Android/Compose apps |
+| Kotlin (Backend) | **kotlin-backend-specialist** | Ktor services, JVM backend |
 | Laravel | **laravel-specialist** | PHP web applications |
 | Next.js | **nextjs-developer** | Full-stack React apps |
 | Node.js | **node-specialist** | Backend services, scripts |
@@ -208,7 +214,7 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 - **expo-react-native-expert** for Expo/React Native cross-platform
 - **flutter-expert** for Flutter cross-platform
 - **swift-expert** for iOS native
-- **kotlin-specialist** for Android native
+- **kotlin-android-specialist** for Android native
 
 **Enterprise Backend:**
 - **java-architect** + **spring-boot-engineer**
