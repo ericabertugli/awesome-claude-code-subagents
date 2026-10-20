@@ -6,7 +6,7 @@
 <br/>
 
 <div align="center">
-    <strong>The awesome collection of 158+ Claude Code subagents across 10 categories.</strong>
+    <strong>The awesome collection of 161+ Claude Code subagents across 10 categories.</strong>
     <br />
     <br />
 </div>
@@ -14,9 +14,10 @@
 <div align="center">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![Subagent Count](https://img.shields.io/badge/subagents-158-blue?style=classic)
+![Subagent Count](https://img.shields.io/badge/subagents-161-blue?style=classic)
 [![Last Update](https://img.shields.io/github/last-commit/VoltAgent/awesome-claude-code-subagents?label=Last%20update&style=classic)](https://github.com/VoltAgent/awesome-claude-code-subagents)
 [![Discord](https://img.shields.io/discord/1361559153780195478.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://s.voltagent.dev/discord)
+[![Official MCP Servers](https://img.shields.io/badge/Official-MCP%20Servers-c2410c?style=classic&logo=github&logoColor=white&labelColor=24292f)](https://github.com/VoltAgent/official-mcp-servers)
 
 
 
@@ -41,6 +42,8 @@ This repository serves as the definitive collection of Claude Code subagents, sp
 <br />
 
 <a href="https://sponsors.voltagent.dev/#awesome-claude-code-subagents"><img src="https://img.shields.io/badge/📩_Become_a_Sponsor-Contact_Us-blue?style=for-the-badge&logoColor=white" alt="Become a Sponsor" /></a>
+
+
 
 ## Installation
 
@@ -117,6 +120,7 @@ Then in Claude Code: "Use the agent-installer to show me available categories" o
 Essential development subagents for everyday coding tasks.
 
 - [**api-designer**](categories/01-core-development/api-designer.md) - REST and GraphQL API architect
+- [**auth-integration-engineer**](categories/01-core-development/auth-integration-engineer.md) - Authentication and authorization specialist
 - [**backend-developer**](categories/01-core-development/backend-developer.md) - Server-side expert for scalable APIs
 - [**design-bridge**](categories/01-core-development/design-bridge.md) - Design-to-agent translator
 - [**electron-pro**](categories/01-core-development/electron-pro.md) - Desktop application expert
@@ -126,27 +130,9 @@ Essential development subagents for everyday coding tasks.
 - [**microservices-architect**](categories/01-core-development/microservices-architect.md) - Distributed systems designer
 - [**mobile-developer**](categories/01-core-development/mobile-developer.md) - Cross-platform mobile specialist
 - [**ui-designer**](categories/01-core-development/ui-designer.md) - Visual design and interaction specialist
+- [**webhook-engineer**](categories/01-core-development/webhook-engineer.md) - Webhook delivery and consumption specialist
 - [**websocket-engineer**](categories/01-core-development/websocket-engineer.md) - Real-time communication specialist
 
-
-<br/>
-
-You ship products with AI, but every launch still dies quietly because nobody posts about it. [EveryFeed](https://everyfeed.ai/) plugs your AI assistant into a social workspace that drafts, schedules, and publishes across 35+ channels — no agency, no marketing hire.
-
-<a href="https://everyfeed.ai/">
-<img src="https://cdn.voltagent.dev/awesome-repo/everyfeed-social.png" alt="everyfeed"  /><br/>
-</a>
-
-<br/>
-<br/>
-
-Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gives your AI coding assistant a complete, working product to start from — websites, startups, and web apps that are clickable on day one.
-
-<a href="https://launchkit.getdesign.md/">
-<img src="https://cdn.voltagent.dev/awesome-repo/new-launchkit.png" alt="launchkit"  /><br/>
-</a>
-
-<br/>
 
 ### [02. Language Specialists](categories/02-language-specialists/)
 **Plugin:** `voltagent-lang`
@@ -227,6 +213,7 @@ Testing, security, and code quality experts.
 - [**powershell-security-hardening**](categories/04-quality-security/powershell-security-hardening.md) - PowerShell security hardening and compliance specialist
 - [**qa-expert**](categories/04-quality-security/qa-expert.md) - Test automation specialist
 - [**security-auditor**](categories/04-quality-security/security-auditor.md) - Security vulnerability expert
+- [**surgeon-reviewer**](categories/04-quality-security/surgeon-reviewer.md) - Zero-noise code review with severity tiers and ship/no-ship verdict
 - [**test-automator**](categories/04-quality-security/test-automator.md) - Test automation framework expert
 - [**ui-ux-tester**](categories/04-quality-security/ui-ux-tester.md) - Exhaustive documented-flow UI tester
 
@@ -312,6 +299,7 @@ Product management and business analysis.
 - [**sales-engineer**](categories/08-business-product/sales-engineer.md) - Technical sales expert
 - [**scrum-master**](categories/08-business-product/scrum-master.md) - Agile methodology expert
 - [**technical-writer**](categories/08-business-product/technical-writer.md) - Technical documentation specialist
+- [**telegram-ads-analyst**](categories/08-business-product/telegram-ads-analyst.md) - Telegram channel ad vetting and pricing specialist
 - [**ux-researcher**](categories/08-business-product/ux-researcher.md) - User research expert
 - [**wordpress-master**](categories/08-business-product/wordpress-master.md) - WordPress development and optimization expert
 - [**content-quality-editor**](categories/08-business-product/content-quality-editor.md) - AI content quality specialist using unslop to strip AI writing patterns before publishing
@@ -330,6 +318,7 @@ Agent coordination and meta-programming.
 - [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.md) - Error handling and recovery specialist
 - [**it-ops-orchestrator**](categories/09-meta-orchestration/it-ops-orchestrator.md) - IT operations workflow orchestration specialist
 - [**knowledge-synthesizer**](categories/09-meta-orchestration/knowledge-synthesizer.md) - Knowledge aggregation expert
+- [**memory-curator**](categories/09-meta-orchestration/memory-curator.md) - Long-term memory discipline across sessions
 - [**multi-agent-coordinator**](categories/09-meta-orchestration/multi-agent-coordinator.md) - Advanced multi-agent orchestration
 - [**performance-monitor**](categories/09-meta-orchestration/performance-monitor.md) - Agent performance optimization
 - [**pied-piper**](https://github.com/sathish316/pied-piper/) - Orchestrate Team of AI Subagents for repetitive SDLC workflows
@@ -473,7 +462,33 @@ Claude Code skill for browsing and fetching subagents from this catalog.
 cp -r tools/subagent-catalog ~/.claude/commands/
 ```
 
+## AI Design + Build Ecosystem Tools
 
+
+<br/>
+
+You ship products with AI, but every launch still dies quietly because nobody posts about it. [EveryFeed](https://everyfeed.ai/) plugs your AI assistant into a social workspace that drafts, schedules, and publishes across 35+ channels — no agency, no marketing hire.
+
+<a href="https://everyfeed.ai/">
+<img src="https://cdn.voltagent.dev/awesome-repo/everyfeed-social.png" alt="everyfeed"  /><br/>
+</a>
+
+<br/>
+
+
+
+<a href="https://launchkit.getdesign.md/">
+<img src="https://cdn.voltagent.dev/awesome-repo/website-starter-kit-banner-dark-0315e5f9c1.png" alt="launchkit"  /><br/>
+</a>
+
+<br/>
+
+
+<a href="https://mobile-starterkit.getdesign.md/">
+<img src="https://cdn.voltagent.dev/awesome-repo/mobile-starter-kit-banner-light-450ba0a9b0.png" alt="mobilekit"  /><br/>
+</a>
+
+<br/>
 
 ## 🤝 Contributing
 
