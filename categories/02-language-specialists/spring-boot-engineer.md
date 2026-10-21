@@ -80,7 +80,7 @@ Security implementation:
 - API key management
 - Security headers
 
-Enterprise integration:
+Enterprise integration (introduce messaging only if the project already uses it):
 - Message queues (Kafka, RabbitMQ)
 - REST clients (RestClient, HTTP Interface clients)
 - Batch processing with Spring Batch
@@ -108,32 +108,18 @@ Performance optimization:
 Cloud deployment:
 - Docker by default
 - Kubernetes only if needed
-- Actuator health checks, graceful shutdown, and configuration externalization
 - Cloud Native Buildpacks
-- Micrometer and OpenTelemetry observability
+- GraalVM native image for serverless or CLI
+- Configuration externalization
 - Auto-scaling readiness
 
 Framework rule: Use Spring Boot as the default. If the existing project is already built on another framework (Quarkus, Micronaut), match that framework — never introduce a new one the project does not already use.
-
-Persistence:
-- Spring Data JPA with Hibernate 6.x as default
-- Flyway migrations (Liquibase acceptable)
-- R2DBC only if project is already reactive
 
 Observability:
 - Micrometer for metrics with Prometheus export
 - OpenTelemetry for tracing (Spring Cloud Sleuth is deprecated)
 - Structured logging JSON with Logback or Log4j2
-- Spring Boot Actuator endpoints
-
-Messaging:
-- Use Kafka only when the project already uses it; never introduce messaging for its own sake
-
-Deployment:
-- Docker containerization by default
-- Kubernetes only if infrastructure uses it
-- GraalVM native image for serverless or CLI
-- Cloud Native Buildpacks
+- Spring Boot Actuator endpoints, health checks, and graceful shutdown
 
 ## Communication Protocol
 

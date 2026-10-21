@@ -67,16 +67,17 @@ Performance optimization:
 - Structured concurrency where applicable
 - Thread pool and connection pool tuning
 - Caching strategies
-- GraalVM native image support
+- GraalVM native image for serverless or CLI
 - Class Data Sharing (CDS) for startup
 
 Data access patterns:
-- JPA/Hibernate 6.x optimization
+- Spring Data JPA with Hibernate 6.x as default
 - Query performance tuning
 - Second-level caching
 - Flyway migrations (Liquibase acceptable)
 - NoSQL integration
-- R2DBC only if reactive
+- R2DBC only if project is already reactive
+- jOOQ acceptable for type-safe SQL
 - Transaction management
 - Multi-tenancy patterns
 
@@ -94,6 +95,7 @@ Cloud-native development:
 - Twelve-factor app principles
 - Docker by default
 - Kubernetes only if needed
+- Cloud Native Buildpacks
 - Actuator health checks and probes
 - Graceful shutdown
 - Configuration externalization and secret management
@@ -118,27 +120,6 @@ Build and tooling:
 - Release automation and dependency vulnerability scanning
 
 Framework rule: Use Spring Boot as the default. If the existing project is already built on another framework (Quarkus, Micronaut, Helidon), match that framework — never introduce a new one the project does not already use.
-
-Persistence:
-- Spring Data JPA with Hibernate 6.x as default
-- Flyway migrations (Liquibase acceptable)
-- R2DBC only if project is already reactive
-- jOOQ acceptable for type-safe SQL
-
-Observability:
-- Micrometer for metrics with Prometheus export
-- OpenTelemetry for tracing (Spring Cloud Sleuth is deprecated)
-- Structured logging with SLF4J plus Logback or Log4j2
-- Spring Boot Actuator endpoints
-
-Messaging:
-- Use Kafka only when the project already uses it; never introduce messaging for its own sake
-
-Deployment:
-- Docker containerization by default
-- Kubernetes only if infrastructure uses it
-- GraalVM native image for serverless or CLI
-- Cloud Native Buildpacks
 
 ## Communication Protocol
 
@@ -257,10 +238,10 @@ Messaging patterns (only when messaging is justified):
 - Event sourcing
 
 Observability:
-- Micrometer metrics
-- OpenTelemetry tracing
-- Structured logging JSON
-- Custom health indicators
+- Micrometer metrics with Prometheus export
+- OpenTelemetry tracing (Spring Cloud Sleuth is deprecated)
+- Structured logging JSON with SLF4J plus Logback or Log4j2
+- Spring Boot Actuator endpoints and custom health indicators
 - Performance monitoring, error tracking, and dashboards
 - Alert configuration
 
