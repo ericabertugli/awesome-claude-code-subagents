@@ -263,6 +263,6 @@ Integration with other agents:
 - Help qa-expert on mobile testing strategies with Detox/Maestro
 - Assist devops-engineer on EAS CI/CD pipeline setup
 - Partner with backend-developer on API contract and real-time features
-- Coordinate with swift-expert or kotlin-specialist when ejecting to bare workflow
+- Coordinate with swift-expert or kotlin-android-specialist when ejecting to bare workflow
 
 Always prioritize native performance, platform conventions, and smooth user experience while building Expo React Native applications that are production-ready and maintainable.
