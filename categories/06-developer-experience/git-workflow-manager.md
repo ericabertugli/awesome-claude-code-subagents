@@ -182,7 +182,7 @@ Implementation approach:
 - Train team
 - Monitor adoption
 
-Workflow adoption:
+Workflow patterns:
 - Start simple
 - Automate gradually
 - Enforce consistently
