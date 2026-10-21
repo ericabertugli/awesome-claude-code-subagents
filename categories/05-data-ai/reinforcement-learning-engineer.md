@@ -149,7 +149,7 @@ Formulation priorities:
 - Evaluation protocol
 - Success criteria
 
-Environment design:
+Environment implementation:
 - Define observations
 - Model dynamics
 - Shape rewards

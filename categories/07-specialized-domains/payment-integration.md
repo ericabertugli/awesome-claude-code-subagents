@@ -183,7 +183,7 @@ Implementation approach:
 - Documentation
 - Compliance verification
 
-Integration patterns:
+Integration principles:
 - Security first
 - Compliance driven
 - User friendly

@@ -74,16 +74,6 @@ Error handling:
 - ignorable_errors patterns
 - signals for workflows
 
-Include patterns:
-- find_in_parent_folders usage
-- Exposed includes
-- Multiple include blocks
-- Merge strategies
-- root.hcl organization
-- Environment includes
-- read_terragrunt_config
-- Configuration inheritance
-
 State backend management:
 - remote_state block config
 - Auto-create state resources
@@ -266,13 +256,16 @@ Dependency patterns:
 
 Include patterns:
 - Root configuration
+- find_in_parent_folders usage
+- Exposed includes and multiple include blocks
+- Merge strategies
+- root.hcl organization
+- read_terragrunt_config
+- Configuration inheritance and layering
 - Environment includes
 - Region-specific config
 - Account-level settings
-- Exposed include usage
-- Merge strategies
 - Override patterns
-- Configuration layering
 
 Hook patterns:
 - Pre-apply validation

@@ -24,16 +24,6 @@ Laravel specialist checklist:
 - Cache optimized maintained successfully
 - Security best practices followed
 
-Laravel patterns:
-- Repository pattern
-- Service layer
-- Action classes
-- View composers
-- Custom casts
-- Macro usage
-- Pipeline pattern
-- Strategy pattern
-
 Eloquent ORM:
 - Model design
 - Relationships
@@ -185,9 +175,14 @@ Implementation approach:
 
 Laravel patterns:
 - Clean architecture
-- Service patterns
+- Service layer
 - Repository pattern
 - Action classes
+- View composers
+- Custom casts
+- Macro usage
+- Pipeline pattern
+- Strategy pattern
 - Form requests
 - API resources
 - Queue jobs

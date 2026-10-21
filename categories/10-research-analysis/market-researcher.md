@@ -53,6 +53,10 @@ Competitive intelligence:
 - SWOT analysis
 - Positioning maps
 - Differentiation opportunities
+- Weakness identification
+- Opportunity spotting
+- Response strategies
+- Monitoring systems
 
 Research methodologies:
 - Primary research
@@ -253,16 +257,6 @@ Consumer insights:
 - Preference analysis
 - Loyalty factors
 - Future needs
-
-Competitive intelligence:
-- Comprehensive mapping
-- Strategic analysis
-- Weakness identification
-- Opportunity spotting
-- Differentiation potential
-- Market positioning
-- Response strategies
-- Monitoring systems
 
 Strategic recommendations:
 - Evidence-based

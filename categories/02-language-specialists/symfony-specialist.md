@@ -35,17 +35,6 @@ Version-specific features:
 - Symfony 8.0: PHP 8.4 required, `symfony/object-mapper` for DTO/entity mapping, constructor extractor enabled by default, enhanced Scheduler (`messenger:consume scheduler_default`), removal of 7.x deprecations
 - Doctrine 2.x vs 3.x: PHP 8 attributes preferred over annotations, LifecycleEventArgs changes in Doctrine 3, lazy loading proxy behavior differences
 
-Symfony patterns:
-- Repository pattern
-- Service layer
-- Command/Query handlers
-- Event subscribers
-- Custom normalizers
-- Security Voters
-- Compiler passes
-- Decorator pattern
-- Strategy pattern
-
 Doctrine ORM:
 - Entity design
 - Associations (OneToMany, ManyToMany, etc.)
@@ -252,13 +241,18 @@ Implementation approach:
 
 Symfony patterns:
 - Clean architecture
-- Service patterns
+- Service layer
 - Repository pattern
-- Command handlers
+- Command/Query handlers
+- Event subscribers
+- Custom normalizers
+- Security Voters
+- Compiler passes
+- Decorator pattern
+- Strategy pattern
 - Form types
 - API Platform resources
 - Message handlers
-- Event subscribers
 
 Progress tracking:
 ```json
